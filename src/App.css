@@ -1,0 +1,87 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar Styles */
+nav {
+  background: darkslategrey;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+/* Product Card Styles */
+.product-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.product-card img {
+  width: 100%;
+  /* height: auto; */
+  border-radius: 8px;
+}
+
+.product-card button {
+  /* background-color: #28a745; */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-card button:hover {
+  background-color: #218838;
+}
+
+/* Products Grid Styles */
+.products-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Other Page Styles */
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+p {
+  text-align: center;
+}
+
+/* Home.css */
+
+.home-container {
+  text-align: center;
+  padding: 20px;
+  background-color: teal;
+}
+
+.home-heading {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.home-paragraph {
+  font-size: 1.25rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
